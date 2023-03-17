@@ -7,6 +7,7 @@ import './App.css';
 import { Verify } from './components/Verify';
 import { Dashboard } from './components/Dashboard';
 import { Content } from './components/Content';
+import {Contact} from './components/Contact';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/Dashboard" element={<Dashboard/>}/>
           <Route path="/Content" element={<Content/>}/>
           <Route path="/Navbar" element={<Navbar/>}/>
+          <Route path="/Contact" element={<Contact/>}></Route>
       </Routes>
       
     </div>
